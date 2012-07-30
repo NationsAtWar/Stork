@@ -11,11 +11,13 @@ Since we removed spawners, we also needed a way to spawn blazes in the nether. W
 
 Config
 ------
-+*enablereplacement* - (*true*/false) Enables the replacement of spawners.
-+*replacement* - (itemId(*57*)) The item to replace the spawners with, use air to remove them.
+Spawners:
+- __enablereplacement__ - (__true__/false) Enables the replacement of spawners.
+- __replacement__ - (itemId(__57__)) The item to replace the spawners with, use air to remove them.
 
-+*enableblazes* - (*true*/false) Enables the spawning system for blazes.
-+*blazespawntype* - (WorldType(*nether*)) Doesn't do anything at the moment.
-+*blazeoccurence* - (int(*20*)) Blazes should spawn every x (whatever you set here) pigmen.
-+*blazecount* - (int(*1*)) This many blazes will spawn per occurence.
+Blazes:
+- __enableblazes__ - (__true__/false) Enables the spawning system for blazes.
+- __blazespawntype__ - (WorldType(__nether__)) Doesn't do anything at the moment.
+- __blazeoccurence__ - (int(__20__)) Blazes should spawn every x (whatever you set here) pigmen.
+- __blazecount__ - (int(__1__)) This many blazes will spawn per occurence.
 
