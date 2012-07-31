@@ -5,7 +5,7 @@ Mob controlling, spawner removing.
 
 About
 -----
-We needed to remove spawners on our server, due to people taking advantage of them. We still wanted some sort of reward for finding them, so we decided to turn ours into diamond blocks.
+We needed to remove spawners on our server, due to people taking advantage of them. We still wanted some sort of reward for finding them, so we decided to turn ours into diamond blocks. Spawners are replaced when mobs spawn from them, it doesn't scan each chunk load.
 
 Since we removed spawners, we also needed a way to spawn blazes in the nether. We added hooks to spawn them at a specified interval with pigmen in the same location.
 
