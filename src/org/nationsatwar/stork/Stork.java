@@ -17,8 +17,4 @@ public class Stork extends JavaPlugin {
 		this.saveConfig();
 		this.getLogger().info(this.getDescription().getVersion()+ " Unloaded");
 	}
-	
-	public void messageAll(String message) {
-		this.getServer().broadcastMessage(ChatColor.DARK_RED + "["+this.getName()+"]: " + message);
-	}
 }
